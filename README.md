@@ -23,7 +23,7 @@ No download is required; scikit-learn fetches the data automatically on first ru
 ## How to Run
 Two commands and you're done!
 
-**Step 1** — Install requirements by running the below:
+**Step 1** — Install requirements by running the below:  
 python -m pip install -r requirements.txt
 
 This project depends on three Python packages listed in `requirements.txt`:
@@ -32,7 +32,7 @@ This project depends on three Python packages listed in `requirements.txt`:
 **scikit-learn** for sourcing the California Housing dataset. This dataset is built in so no need to download anything seperately.
 
 
-**Step 2** — Run script using the below:
+**Step 2** — Run script using the below:  
 python src/boxplot.py
 
 This generates out charts for analysis!

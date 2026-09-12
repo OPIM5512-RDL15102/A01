@@ -1,2 +1,31 @@
-# A01
-Assignment 1
+# California Housing Boxplot
+
+This code loads the California Housing dataset then produces and saves charts that analyze housing features like age, median income and median home values.
+
+## Data
+
+The California Housing dataset contains 20,640 rows and 9 columns which are detailed below.
+
+| Column | Description |
+|---|---|
+| `MedInc` | Median income in the block group (tens of thousands of USD) |
+| `HouseAge` | Median house age in the block group (years) |
+| `AveRooms` | Average number of rooms per household |
+| `AveBedrms` | Average number of bedrooms per household |
+| `Population` | Block group population |
+| `AveOccup` | Average number of household members |
+| `Latitude` | Block group latitude |
+| `Longitude` | Block group longitude |
+| `MedHouseVal` | Median house value (hundreds of thousands of USD) — target variable |
+
+No download is required; scikit-learn fetches the data automatically on first run and caches it locally.
+
+## How to Run
+
+Install requirements
+Run Code
+
+
+## Expected Output
+
+Running the script produces a histogram of house ages and two boxplots comparing median income and median home values. These charts are automatically saved to repository.
